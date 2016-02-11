@@ -1,6 +1,6 @@
 {
   "name": "react-case-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "{ Case, When, } Conditional Component",
   "main": "lib/index.js",
   "files": [
