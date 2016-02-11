@@ -2,7 +2,11 @@ import React, { Component, PropTypes, } from 'react';
 
 const childContextTypes = {
   value: PropTypes.any.isRequired,
-}
+};
+
+const propTypes = {
+  value: PropTypes.any.isRequired,
+};
 
 class Case extends Component {
   getChildContext() {
@@ -21,5 +25,6 @@ class Case extends Component {
 }
 
 Case.childContextTypes = childContextTypes;
+Case.propTypes = propTypes;
 
 export default Case;
